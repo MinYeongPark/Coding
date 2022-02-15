@@ -1,3 +1,11 @@
+/*
+ * @author Minyeong Park
+ * @date 2022.02.15.
+ * 오르막 수
+ * https://www.acmicpc.net/problem/11057
+ */
+
+
 import java.io.*;
 
 public class Main {
