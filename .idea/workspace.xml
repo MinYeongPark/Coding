@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af99cfc-3dcc-4c3f-985e-b574b1cdde66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/n2193/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/n2156/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/n9465/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +22,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/baekjoon/n2193" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baekjoon/n2156" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\박민영\Coding\baekjoon\n2156" />
+      <recent name="D:\박민영\Coding\baekjoon\n9465" />
       <recent name="D:\박민영\Coding\baekjoon\n2193" />
     </key>
   </component>
