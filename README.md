@@ -12,11 +12,11 @@
 |~2022-02-02|동적프로그래밍|<a href="https://www.acmicpc.net/problem/11727">11727번 : 2×n 타일링 2</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n11727/Main.java">🔗</a>|
 |~2022-02-02|동적프로그래밍|<a href="https://www.acmicpc.net/problem/9095">9095번 : 1, 2, 3 더하기</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n9095/Main.java">🔗</a>|
 |2022-02-14|동적프로그래밍|<a href="https://www.acmicpc.net/problem/10844">10844번 : 쉬운 계단 수</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n10844/Main.java">🔗</a>|
-|2022-02-15|동적프로그래밍|<a href="https://www.acmicpc.net/problem/11057">11057번 : 오르막 수</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n11057.java">🔗</a>|
-|2022-02-16|동적프로그래밍|<a href="https://www.acmicpc.net/problem/2193">2193번 : 이친수</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n2193.java">🔗</a>|
-|~2022-02-22|동적프로그래밍|<a href="https://www.acmicpc.net/problem/9465">9465번 : 스티커</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n9465.java">🔗</a>|
-|~2022-02-22|동적프로그래밍|<a href="https://www.acmicpc.net/problem/2156">2156번 : 포도주 시식</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n2156.java">🔗</a>|
-|~2022-02-24|동적프로그래밍|<a href="https://www.acmicpc.net/problem/11053">11053번 : 가장 긴 증가하는 부분 수열</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n11053.java">🔗</a>|
+|2022-02-15|동적프로그래밍|<a href="https://www.acmicpc.net/problem/11057">11057번 : 오르막 수</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n11057/Main.java">🔗</a>|
+|2022-02-16|동적프로그래밍|<a href="https://www.acmicpc.net/problem/2193">2193번 : 이친수</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n2193/Main.java">🔗</a>|
+|~2022-02-22|동적프로그래밍|<a href="https://www.acmicpc.net/problem/9465">9465번 : 스티커</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n9465/Main.java">🔗</a>|
+|~2022-02-22|동적프로그래밍|<a href="https://www.acmicpc.net/problem/2156">2156번 : 포도주 시식</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n2156/Main.java">🔗</a>|
+|~2022-02-24|동적프로그래밍|<a href="https://www.acmicpc.net/problem/11053">11053번 : 가장 긴 증가하는 부분 수열</a>|<a href="https://github.com/MinYeongPark/Coding/blob/main/baekjoon/n11053/Main.java">🔗</a>|
 
 <br>
 <br>
