@@ -38,6 +38,7 @@
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12944">평균 구하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%ED%8F%89%EA%B7%A0%20%EA%B5%AC%ED%95%98%EA%B8%B0/Solution.java">🔗</a>|
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1/Solution.java">🔗</a>|
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1/Solution.java">🔗</a>|
+| 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">최대공약수와 최소공배수</a> | <a href = "">🔗</a> | <a href = "">📝</a> |
 <br>
 <br>
 
