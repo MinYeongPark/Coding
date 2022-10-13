@@ -47,6 +47,9 @@
 | 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12930">이상한 문자 만들기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%9D%B4%EC%83%81%ED%95%9C%20%EB%AC%B8%EC%9E%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Solution.java">🔗</a> |
 | 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12926">시저 암호</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%9C%EC%A0%80%20%EC%95%94%ED%98%B8/Solution.java">🔗</a> |
 | 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12928">약수의 합</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20%EC%A0%95%EC%88%98%EB%A1%9C%20%EB%B0%94%EA%BE%B8%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12921">소수 찾기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98/Solution.java">🔗</a> |
 
 <br>
 <br>
