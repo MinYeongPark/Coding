@@ -27,8 +27,8 @@
 
 ### 프로그래머스
 
-|날짜|단계|문제|풀이|
-|:---:|:---:|:---:|:---:|
+|날짜|단계|문제|
+|:---:|:---:|:---:|
 |2022-06-17|1|<a href="https://programmers.co.kr/learn/courses/30/lessons/92334">신고 결과 받기</a>| <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0/%EB%82%B4%EA%B0%80%20%ED%91%BC%20%EA%B2%83/Solution.java">🔗</a> <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0/%EB%8B%A4%EB%A5%B8%20%EC%BD%94%EB%93%9C%20%EA%B3%B5%EB%B6%80/Solution.java">📝</a> |
 | 2022-06-24 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12969">직사각형 별찍기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0/Solution.java">🔗</a> |
 | 2022-06-25 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12954">x만큼 간격이 있는 n개의 숫자</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%82%B4%EA%B0%80%20%ED%91%BC%20%EA%B2%83/Solution.java">🔗</a> <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%8B%A4%EB%A5%B8%20%ED%92%80%EC%9D%B4%20%EA%B3%B5%EB%B6%80/Solution.java">📝(1)</a><a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%8B%A4%EB%A5%B8%20%ED%92%80%EC%9D%B4%20%EA%B3%B5%EB%B6%80/Solution2.java">📝(2)</a> |
