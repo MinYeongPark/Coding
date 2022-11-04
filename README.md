@@ -50,6 +50,10 @@
 | 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20%EC%A0%95%EC%88%98%EB%A1%9C%20%EB%B0%94%EA%BE%B8%EA%B8%B0/Solution.java">🔗</a> |
 | 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12921">소수 찾기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/Solution.java">🔗</a> |
 | 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12916">문자열 내 p와 y의 개수</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%20p%EC%99%80%20y%EC%9D%98%20%EA%B0%9C%EC%88%98/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기본</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%8B%A4%EB%A3%A8%EA%B8%B0%20%EA%B8%B0%EB%B3%B8/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12919">서울에서 김서방 찾기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%84%9C%EC%9A%B8%EC%97%90%EC%84%9C%20%EA%B9%80%EC%84%9C%EB%B0%A9%20%EC%B0%BE%EA%B8%B0/Solution.java">🔗</a> |
 
 <br>
 <br>
