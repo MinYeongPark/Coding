@@ -27,8 +27,8 @@
 
 ### 프로그래머스
 
-|날짜|단계|문제|풀이|
-|:---:|:---:|:---:|:---:|
+|날짜|단계|문제|
+|:---:|:---:|:---:|
 |2022-06-17|1|<a href="https://programmers.co.kr/learn/courses/30/lessons/92334">신고 결과 받기</a>| <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0/%EB%82%B4%EA%B0%80%20%ED%91%BC%20%EA%B2%83/Solution.java">🔗</a> <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0/%EB%8B%A4%EB%A5%B8%20%EC%BD%94%EB%93%9C%20%EA%B3%B5%EB%B6%80/Solution.java">📝</a> |
 | 2022-06-24 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12969">직사각형 별찍기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0/Solution.java">🔗</a> |
 | 2022-06-25 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12954">x만큼 간격이 있는 n개의 숫자</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%82%B4%EA%B0%80%20%ED%91%BC%20%EA%B2%83/Solution.java">🔗</a> <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%8B%A4%EB%A5%B8%20%ED%92%80%EC%9D%B4%20%EA%B3%B5%EB%B6%80/Solution.java">📝(1)</a><a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/%EB%8B%A4%EB%A5%B8%20%ED%92%80%EC%9D%B4%20%EA%B3%B5%EB%B6%80/Solution2.java">📝(2)</a> |
@@ -38,10 +38,28 @@
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12944">평균 구하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%ED%8F%89%EA%B7%A0%20%EA%B5%AC%ED%95%98%EA%B8%B0/Solution.java">🔗</a>|
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1/Solution.java">🔗</a>|
 | 2022-06-26 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%BD%9C%EB%9D%BC%EC%B8%A0%20%EC%B6%94%EC%B8%A1/Solution.java">🔗</a>|
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12940">최대공약수와 최소공배수</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%20%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/Solution.java">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12937">짝수와 홀수</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%A7%9D%EC%88%98%EC%99%80%20%ED%99%80%EC%88%98/Solution.java">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12935">제일 작은 수 제거하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%A0%9C%EC%9D%BC%20%EC%9E%91%EC%9D%80%20%EC%88%98%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12934">정수 제곱근 판별</a> | <a href = "">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12933">정수 내림차순으로 배치하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%A0%95%EC%88%98%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12932">자연수 뒤집어 배열로 만들기</a> | <a href = https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%9E%90%EC%97%B0%EC%88%98%20%EB%92%A4%EC%A7%91%EC%96%B4%20%EB%B0%B0%EC%97%B4%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Solution.java"">🔗</a> |
+| 2022-06-27 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12930">이상한 문자 만들기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%9D%B4%EC%83%81%ED%95%9C%20%EB%AC%B8%EC%9E%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12926">시저 암호</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%8B%9C%EC%A0%80%20%EC%95%94%ED%98%B8/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12928">약수의 합</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%20%EC%A0%95%EC%88%98%EB%A1%9C%20%EB%B0%94%EA%BE%B8%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12921">소수 찾기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98%EB%B0%95%EC%88%98/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12916">문자열 내 p와 y의 개수</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%20p%EC%99%80%20y%EC%9D%98%20%EA%B0%9C%EC%88%98/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기본</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%8B%A4%EB%A3%A8%EA%B8%B0%20%EA%B8%B0%EB%B3%B8/Solution.java">🔗</a> |
+| 2022-07-01 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/12919">서울에서 김서방 찾기</a> | <a href = "https://github.com/MinYeongPark/Coding/blob/main/programmers/1_%EC%84%9C%EC%9A%B8%EC%97%90%EC%84%9C%20%EA%B9%80%EC%84%9C%EB%B0%A9%20%EC%B0%BE%EA%B8%B0/Solution.java">🔗</a> |
+
 <br>
 <br>
 
 <!--
+| 2022-06-17 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">제목</a> | <a href = "">🔗</a> |
 | 2022-06-17 | 1 | <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">제목</a> | <a href = "">🔗</a> | <a href = "">📝</a> |
 -->
 
