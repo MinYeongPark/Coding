@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -9,25 +10,25 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
-
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
-            arrayList.add(i);
+            list.add(i);
         }
 
-        System.out.print("<");
+        StringBuilder sb = new StringBuilder();
+        sb.append("<");
         int index = 0;
-        while (!arrayList.isEmpty()) {
+        while (list.size() > 0) {
             index += k - 1;
-            while (index >= arrayList.size()) {
-                index -= arrayList.size();
+            while (index >= list.size()) {
+                index -= list.size();
             }
-            int removed = arrayList.remove(index);
-            if (arrayList.isEmpty()) {
-                System.out.println(removed + ">");
-                break;
+            sb.append(list.remove(index));
+            if (list.size() >= 1) {
+                sb.append(", ");
             }
-            System.out.print(removed + ", ");
         }
+        sb.append(">");
+        System.out.println(sb);
     }
 }
