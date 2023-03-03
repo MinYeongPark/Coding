@@ -10,19 +10,19 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        int[] sum_arr = new int[n+1];
         st = new StringTokenizer(br.readLine());
+        int[] s = new int[n+1];
+
         for (int i = 1; i <= n; i++) {
-            sum_arr[i] = sum_arr[i-1] + Integer.parseInt(st.nextToken());
+            s[i] = s[i-1] + Integer.parseInt(st.nextToken());
         }
 
         StringBuilder sb = new StringBuilder();
-        for (int k = 0; k < m; k++) {
+        for (int line = 0; line < m; line++) {
             st = new StringTokenizer(br.readLine());
             int i = Integer.parseInt(st.nextToken());
             int j = Integer.parseInt(st.nextToken());
-            int result = sum_arr[j] - sum_arr[i-1];
-            sb.append(result).append('\n');
+            sb.append(s[j] - s[i-1]).append("\n");
         }
         System.out.println(sb);
     }
