@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 1; i <= n; i++) {
+            q.offer(i);
+        }
+
+        while (q.size() >= 2) {
+            q.poll();
+            if (!q.isEmpty()) {
+                q.offer(q.poll());
+            }
+        }
+
+        System.out.println(q.poll());
+    }
+}
