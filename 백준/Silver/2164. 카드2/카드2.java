@@ -11,11 +11,9 @@ public class Main {
             q.offer(i);
         }
 
-        while (q.size() >= 2) {
+        while (q.size() > 1) {
             q.poll();
-            if (!q.isEmpty()) {
-                q.offer(q.poll());
-            }
+            q.offer(q.poll());
         }
 
         System.out.println(q.poll());
