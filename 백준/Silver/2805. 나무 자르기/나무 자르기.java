@@ -1,42 +1,42 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int n, m;
-    static int[] trees;
-    static long remain;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-
-        trees = new int[n];
-        long max_length = 0;
-        long min_length = 0;
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int[] tree = new int[n];
         st = new StringTokenizer(br.readLine());
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
-            trees[i] = Integer.parseInt(st.nextToken());
-            if (trees[i] > max_length) {
-                max_length = trees[i];
-            }
+            tree[i] = Integer.parseInt(st.nextToken());
+            max = Math.max(max, tree[i]);
         }
-        while (min_length < max_length) {
-            long mid = (max_length + min_length) / 2;
-            remain = 0;
+
+        int start = 0;
+        int end = max;
+        long result_h = 0;
+        while (start <= end) {
+            int temp_h = (start + end) / 2;
+            long remainder = 0;
             for (int i = 0; i < n; i++) {
-                remain += (trees[i] - mid >= 0) ? trees[i] - mid : 0;
+                remainder += Math.max(tree[i] - temp_h, 0);
             }
 
-            if (remain < m) {
-                max_length = mid;
+            if (remainder == m) {
+                result_h = temp_h;
+                break;
+            } else if (remainder > m) {
+                // 너무 많이 남았으므로 높이를 더 높여야 함
+                result_h = temp_h; // 일단 결과값에 담음
+                start = temp_h + 1;
             } else {
-                min_length = mid + 1;
+                // 적게 남았으므로 높이를 더 낮춰야 함
+                end = temp_h - 1;
             }
         }
-
-        System.out.println(min_length - 1);
+        System.out.println(result_h);
     }
 }
