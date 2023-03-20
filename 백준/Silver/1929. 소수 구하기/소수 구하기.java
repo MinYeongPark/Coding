@@ -15,7 +15,7 @@ public class Main {
         isPrime[0] = isPrime[1] = false;
 
         int idx = 2;
-        while (idx <= n) {
+        while (idx <= Math.sqrt(n)) {
             for (int i = 2; i * idx <= n; i++) {
                 isPrime[i * idx] = false;
             }
