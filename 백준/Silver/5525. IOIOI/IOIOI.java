@@ -22,17 +22,24 @@ public class Main {
         }
         String find = find_sb.toString();
 
-        int idx = 0;
+        int idx = 1;
         int cnt = 0;
-        while (idx < m) {
-            if (idx + n * 2 < m) {
-                if (str.substring(idx, idx + n * 2 + 1).equals(find)) {
-                    cnt++;
+        int ans = 0;
+        while (idx < m - 1) {
+            if (str.charAt(idx) == 'O' && str.charAt(idx + 1) == 'I') {
+                cnt++;
+                if (cnt == n) {
+                    if (str.charAt(idx - (cnt * 2 - 1)) == 'I')
+                        ans++;
+                    cnt--; // 다음 OI로 넘어가야 하니까 cnt 하나 감소
                 }
+                idx += 2;
+            } else {
+                cnt = 0;
+                idx++;
             }
-            idx++;
         }
 
-        System.out.println(cnt);
+        System.out.println(ans);
     }
 }
