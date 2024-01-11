@@ -28,7 +28,7 @@ public class Main {
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < m; i++) {
             int find = Integer.parseInt(st.nextToken());
-            if (binary_sort(find, 0, n - 1) == -1) {
+            if (binary_search(find, 0, n - 1) == -1) {
                 System.out.print("no ");
             } else {
                 System.out.print("yes ");
@@ -36,7 +36,7 @@ public class Main {
         }
     }
 
-    static int binary_sort(int find, int start, int end) {
+    static int binary_search(int find, int start, int end) {
         int mid = (start + end) / 2;
 
         if (start > end) {
@@ -46,9 +46,9 @@ public class Main {
         if (find == arr[mid]) { // 찾은 경우 중간점 인덱스 반환
             return mid;
         } else if (find > arr[mid]) { // 오른쪽 부분 탐색
-            return binary_sort(find, mid + 1, end);
+            return binary_search(find, mid + 1, end);
         } else { // 왼쪽 부분 탐색
-            return binary_sort(find, start, mid - 1);
+            return binary_search(find, start, mid - 1);
         }
     }
 }
