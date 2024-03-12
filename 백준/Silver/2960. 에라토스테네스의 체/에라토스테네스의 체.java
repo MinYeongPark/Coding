@@ -14,28 +14,23 @@ public class Main {
             list[i] = true;
         }
 
-        int start = 2;
         int cnt = 0;
-        int result = -1;
-        while (cnt < k) {
-            for (int i = start; i <= n; i++) {
-                if (list[i]) {
-                    start = i;
-                    break;
+        for (int i = 2; i <= n; i++) {
+            if (list[i]) {
+                cnt++;
+                if (cnt == k) {
+                    System.out.println(i);
                 }
-            }
-            for (int i = start; i <= n; i += start) {
-                if (list[i]) {
-                    list[i] = false;
-                    cnt++;
-                    if (cnt == k) {
-                        result = i;
-                        break;
+                for (int j = i * i; j <= n; j += i) {
+                    if (list[j]) {
+                        list[j] = false;
+                        cnt++;
+                        if (cnt == k) {
+                            System.out.println(j);
+                        }
                     }
                 }
             }
         }
-
-        System.out.println(result);
     }
 }
