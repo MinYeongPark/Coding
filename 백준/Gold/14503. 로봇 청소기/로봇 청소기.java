@@ -55,10 +55,9 @@ public class Main {
 
         // 주변 4칸 중 청소되지 않은 빈 칸이 없는 경우
         // 한 칸 후진
-        int nr = -1, nc = -1;
         int nd = (d + 2) % 4;
-        nr = r + dx[nd];
-        nc = c + dy[nd];
+        int nr = r + dx[nd];
+        int nc = c + dy[nd];
         if (nr >= 0 && nr < n && nc >= 0 && nc < m) {
             if (map[nr][nc] == 0) {
                 run(nr, nc);
