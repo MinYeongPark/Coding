@@ -51,24 +51,21 @@ public class Main {
         }
 
         // 지훈
-        ArrayList<Node> exitCandidateList = new ArrayList<>();
         while (!jq.isEmpty()) {
 
             Node now = jq.poll();
             int jx = now.x;
             int jy = now.y;
 
-            if (jx == 0 || jx == r - 1 || jy == 0 || jy == c - 1) {
-                if (map[jx][jy] != '#') {
-                    exitCandidateList.add(new Node(jx, jy));
-                }
-            }
-
             for (int i = 0; i < 4; i++) {
                 int nx = jx + dx[i];
                 int ny = jy + dy[i];
 
-                if (nx < 0 || nx >= r || ny < 0 || ny >= c) continue;
+                if (nx < 0 || nx >= r || ny < 0 || ny >= c) {
+                    System.out.println(jVisited[jx][jy]);
+                    return;
+                }
+                if (fVisited[nx][ny] != 0 && fVisited[nx][ny] <= jVisited[jx][jy] + 1) continue;
                 if (map[nx][ny] != '#' && jVisited[nx][ny] == 0) {
                     jq.offer(new Node(nx, ny));
                     jVisited[nx][ny] = jVisited[jx][jy] + 1;
@@ -76,18 +73,7 @@ public class Main {
             }
         }
 
-        int min = Integer.MAX_VALUE;
-        for (Node node : exitCandidateList) {
-            if (fVisited[node.x][node.y] != 0 && jVisited[node.x][node.y] >= fVisited[node.x][node.y]) {
-                continue;
-            }
-            min = Math.min(min, jVisited[node.x][node.y]);
-        }
-        if (min == Integer.MAX_VALUE) {
-            System.out.println("IMPOSSIBLE");
-            return;
-        }
-        System.out.println(min);
+        System.out.println("IMPOSSIBLE");
     }
 }
 
