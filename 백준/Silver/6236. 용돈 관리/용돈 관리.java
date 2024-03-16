@@ -10,10 +10,10 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        money = new int[100002];
+        money = new int[100001];
         for (int i = 0; i < n; i++) {
             money[i] = Integer.parseInt(br.readLine());
-            start = Math.max(start, money[i]);
+            start = Math.max(start, money[i]); // start를 이렇게 최댓값으로 설정하면 한번 인출 시 무조건 하루는 사용할 수 있음
         }
 
         System.out.println(binarySearch());
@@ -45,6 +45,6 @@ public class Main {
             }
         }
 
-        return start;
+        return start; // 최솟값 구하기
     }
 }
