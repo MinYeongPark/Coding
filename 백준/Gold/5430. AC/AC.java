@@ -1,61 +1,64 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
-public class Main {
+public class Main
+{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int tc = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder();
+        int t = Integer.parseInt(br.readLine());
 
+        StringBuilder sb = new StringBuilder();
         Loop1:
-        for (int t = 0; t < tc; t++) {
-            String func = br.readLine();
-            String[] command = func.split("");
+        for (int tc = 0; tc < t; tc++) {
+            String p = br.readLine();
             int n = Integer.parseInt(br.readLine());
 
-            String str = br.readLine();
-            str = str.substring(1, str.length() - 1);
-            ArrayList<Integer> num_list = new ArrayList<>();
-            String[] nums = str.split(",");
+            String arr_all = br.readLine();
+            String arr_in = arr_all.substring(1, arr_all.length() - 1);
+            String[] arr_str = arr_in.split(",");
+
+            ArrayList<Integer> list = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                if (!nums[i].equals("")) {
-                    num_list.add(Integer.parseInt(nums[i]));
-                }
+                list.add(Integer.parseInt(arr_str[i]));
             }
 
-            boolean isRight = false;
-
-            for (int i = 0; i < command.length; i++) {
-                if (command[i].equals("R")) {
-                    isRight = isRight ? false : true;
-                } else if (command[i].equals("D")) {
-                    if (num_list.isEmpty()) {
-                        sb.append("error").append("\n");
-                        continue Loop1;
-                    }
-                    num_list.remove(isRight ? num_list.size() - 1 : 0);
-                } else {
-                    sb.append("error").append("\n");
-                    continue Loop1;
+            boolean isRight = false; // 배열의 시작 방향
+            for (int i = 0; i < p.length(); i++) {
+                char c = p.charAt(i);
+                switch(c) {
+                    case 'R' :
+                        isRight = !isRight;
+                        break;
+                    case 'D' :
+                        if (!list.isEmpty()) {
+                            list.remove(isRight ? list.size() - 1 : 0);
+                        }
+                        else {
+                            sb.append("error").append("\n");
+                            continue Loop1;
+                        }
+                        break;
                 }
             }
 
             sb.append("[");
-            if (num_list.size() >= 1) {
+
+            if (list.size() >= 1) {
                 if (isRight) {
-                    for (int i = num_list.size() - 1; i > 0; i--) {
-                        sb.append(num_list.get(i)).append(",");
+                    for (int i = list.size() - 1; i > 0; i--) {
+                        sb.append(list.get(i)).append(",");
                     }
-                    sb.append(num_list.get(0));
+                    sb.append(list.get(0));
                 } else {
-                    for (int i = 0; i < num_list.size() - 1; i++) {
-                        sb.append(num_list.get(i)).append(",");
+                    for (int i = 0; i < list.size() - 1; i++) {
+                        sb.append(list.get(i)).append(",");
                     }
-                    sb.append(num_list.get(num_list.size() - 1));
+                    sb.append(list.get(list.size() - 1));
                 }
             }
             sb.append("]").append("\n");
         }
+
         System.out.println(sb);
     }
 }
