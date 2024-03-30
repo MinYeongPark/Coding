@@ -10,6 +10,8 @@ public class Main
         StringBuilder sb = new StringBuilder();
         Loop1:
         for (int tc = 0; tc < t; tc++) {
+            Deque<Integer> dq = new LinkedList<>();
+
             String p = br.readLine();
             int n = Integer.parseInt(br.readLine());
 
@@ -17,9 +19,8 @@ public class Main
             String arr_in = arr_all.substring(1, arr_all.length() - 1);
             String[] arr_str = arr_in.split(",");
 
-            ArrayList<Integer> list = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                list.add(Integer.parseInt(arr_str[i]));
+                dq.addLast(Integer.parseInt(arr_str[i]));
             }
 
             boolean isRight = false; // 배열의 시작 방향
@@ -30,8 +31,9 @@ public class Main
                         isRight = !isRight;
                         break;
                     case 'D' :
-                        if (!list.isEmpty()) {
-                            list.remove(isRight ? list.size() - 1 : 0);
+                        if (!dq.isEmpty()) {
+                            if (isRight) dq.removeLast();
+                            else dq.removeFirst();
                         }
                         else {
                             sb.append("error").append("\n");
@@ -43,17 +45,18 @@ public class Main
 
             sb.append("[");
 
-            if (list.size() >= 1) {
+            if (dq.size() >= 1) {
+                int size = dq.size();
                 if (isRight) {
-                    for (int i = list.size() - 1; i > 0; i--) {
-                        sb.append(list.get(i)).append(",");
+                    for (int i = 0; i < size - 1; i++) {
+                        sb.append(dq.removeLast()).append(",");
                     }
-                    sb.append(list.get(0));
+                    sb.append(dq.removeLast());
                 } else {
-                    for (int i = 0; i < list.size() - 1; i++) {
-                        sb.append(list.get(i)).append(",");
+                    for (int i = 0; i < size - 1; i++) {
+                        sb.append(dq.removeFirst()).append(",");
                     }
-                    sb.append(list.get(list.size() - 1));
+                    sb.append(dq.removeFirst());
                 }
             }
             sb.append("]").append("\n");
