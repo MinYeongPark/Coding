@@ -60,3 +60,23 @@ WITH RECURSIVE FileTree AS (
 SELECT empid, mgrid, empname, path
 FROM FileTree
 ORDER BY sorted_path; -- 패딩된 경로 기준으로 결과 정렬
+
+-- BFS 조회
+WITH RECURSIVE FileTree AS (
+    SELECT
+        empid,
+        mgrid,
+        empname
+    FROM Employees
+    WHERE empid = 1 -- 루트 노드에서 시작
+    UNION ALL
+    SELECT
+        S.empid,
+        S.mgrid,
+        S.empname
+    FROM FileTree AS M
+    INNER JOIN Employees AS S
+        ON S.mgrid = M.empid
+)
+SELECT empid, mgrid, empname
+FROM FileTree;
